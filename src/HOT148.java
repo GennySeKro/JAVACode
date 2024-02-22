@@ -7,6 +7,9 @@ public class HOT148 {
     排序链表
      */
 
+    /*
+    暴力
+     */
     public ListNode sortList(ListNode head) {
         List<Integer> res = new ArrayList<>();
         ListNode p = head;
