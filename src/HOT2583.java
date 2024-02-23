@@ -7,6 +7,9 @@ public class HOT2583 {
     二叉树中的第K大层的和
      */
 
+    /*
+    层序遍历保存和
+     */
     public long kthLargestLevelSum(TreeNode root, int k) {
         Queue<TreeNode> queue = new ArrayDeque<>();
         queue.add(root);
