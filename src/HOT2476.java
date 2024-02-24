@@ -51,6 +51,9 @@ public class HOT2476 {
         }
     }
 
+    /*
+    中序遍历+二分查找
+     */
     class two {
         List<Integer> value = new ArrayList<>();
 
