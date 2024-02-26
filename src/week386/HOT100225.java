@@ -27,6 +27,6 @@ public class HOT100225 {
     @Test
     public void test(){
         largestSquareArea(new int[][]{{1,3},{2,2}}, new int[][]{{3,4},{5,5}});
-        System.out.println(res);
+        System.out.println();
     }
 }
