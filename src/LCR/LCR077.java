@@ -7,6 +7,6 @@ public class LCR077 {
      */
 
     public ListNode sortList(ListNode head) {
-
+        return null;
     }
 }
