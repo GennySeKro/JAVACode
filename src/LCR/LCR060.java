@@ -1,64 +1,43 @@
 package LCR;
 
+import org.junit.Test;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class LCR060 {
     /*
-    键值映射
+    前k哥高频元素
      */
 
-    class MapSum {
-        private Map<String, Integer> pairs;
-        private Trie trie;
-
-        public MapSum() {
-            pairs = new HashMap<String, Integer>();
-            trie = new Trie();
+    public int[] topKFrequent(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0;i < nums.length;i++){
+            if (map.containsKey(nums[i])){
+                map.put(nums[i], map.get(nums[i]) + 1);
+            }else {
+                map.put(nums[i], 1);
+            }
         }
+        int[] res = new int[k];
+        for (int i = 0;i < k;i++){
+            int max = Integer.MIN_VALUE;
+            int maxKey = 0;
+            for (Integer key : map.keySet()){
+                if (max < map.get(key)){
+                    max = map.get(key);
+                    maxKey = key;
+                }
 
-        public void insert(String key, int val) {
-            int prevVal = pairs.getOrDefault(key, 0);
-            pairs.put(key, val);
-            trie.insert(key, val - prevVal);
+            }
+            res[i] = maxKey;
+            map.remove(maxKey);
         }
-
-        public int sum(String prefix) {
-            return trie.sum(prefix);
-        }
+        return res;
     }
 
-    class Trie {
-        private int val;
-        private Map<Character, Trie> children;
-
-        public Trie() {
-            val = 0;
-            children = new HashMap<Character, Trie>();
-        }
-
-        public void insert(String key, int delta) {
-            Trie node = this;
-            int length = key.length();
-            for (int i = 0; i < length; i++) {
-                char c = key.charAt(i);
-                node.children.putIfAbsent(c, new Trie());
-                node = node.children.get(c);
-                node.val += delta;
-            }
-        }
-
-        public int sum(String prefix) {
-            Trie node = this;
-            int length = prefix.length();
-            for (int i = 0; i < length; i++) {
-                char c = prefix.charAt(i);
-                if (!node.children.containsKey(c)) {
-                    return 0;
-                }
-                node = node.children.get(c);
-            }
-            return node.val;
-        }
+    @Test
+    public void test(){
+        System.out.println(topKFrequent(new int[]{1,1,1,2,2,3}, 2));
     }
 }
