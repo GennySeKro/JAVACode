@@ -1,42 +1,56 @@
 package HOT;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 public class HOT130 {
     /*
-    被围绕的区域
+    被包围的区域
      */
 
-    int[][] dir ={{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+    /*
+    广度优先
+     */
+
+    private static final int[][] position = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};  // 四个方向
+
     public void solve(char[][] board) {
-
-        for(int i = 0; i < board.length; i++){
-            if(board[i][0] == 'O') dfs(board, i, 0);
-            if(board[i][board[0].length - 1] == 'O') dfs(board, i, board[0].length - 1);
+        // rowSize：行的长度，colSize：列的长度
+        int rowSize = board.length, colSize = board[0].length;
+        Queue<int[]> queue = new ArrayDeque<>();
+        // 从左侧边，和右侧边遍历
+        for (int row = 0; row < rowSize; row++) {
+            if (board[row][0] == 'O')
+                queue.add(new int[]{row, 0});
+            if (board[row][colSize - 1] == 'O')
+                queue.add(new int[]{row, colSize - 1});
         }
-
-        for(int j = 1 ; j < board[0].length - 1; j++){
-            if(board[0][j] == 'O') dfs(board, 0, j);
-            if(board[board.length - 1][j] == 'O') dfs(board, board.length - 1, j);
+        // 从上边和下边遍历，在对左侧边和右侧边遍历时我们已经遍历了矩阵的四个角
+        // 所以在遍历上边和下边时可以不用遍历四个角
+        for (int col = 1; col < colSize - 1; col++) {
+            if (board[0][col] == 'O')
+                queue.add(new int[]{0, col});
+            if (board[rowSize - 1][col] == 'O')
+                queue.add(new int[]{rowSize - 1, col});
         }
-
-        for(int i = 0; i < board.length; i++){
-            for(int j = 0; j < board[0].length; j++){
-                if(board[i][j] == 'O') board[i][j] = 'X';
-                if(board[i][j] == 'A') board[i][j] = 'O';
+        // 广度优先遍历，把没有被 'X' 包围的 'O' 修改成特殊值
+        while (!queue.isEmpty()) {
+            int[] current = queue.poll();
+            board[current[0]][current[1]] = 'A';
+            for (int[] pos: position) {
+                int row = current[0] + pos[0], col = current[1] + pos[1];
+                // 如果范围越界、该位置的值不是 'O'，就直接跳过
+                if (row < 0 || row >= rowSize || col < 0 || col >= colSize) continue;
+                if (board[row][col] != 'O') continue;
+                queue.add(new int[]{row, col});
             }
         }
-    }
-
-    private void dfs(char[][] board, int x, int y){
-        if(board[x][y] == 'X' || board[x][y] == 'A')
-            return;
-        board[x][y] = 'A';
-        for(int i = 0; i < 4; i++){
-            int nextX = x + dir[i][0];
-            int nextY = y + dir[i][1];
-
-            if(nextX < 0 || nextY < 0 || nextX >= board.length || nextY >= board[0].length)
-                continue;
-            dfs(board, nextX, nextY);
+        // 遍历数组，把 'O' 修改成 'X'，特殊值修改成 'O'
+        for (int row = 0; row < rowSize; row++) {
+            for (int col = 0; col < colSize; col++) {
+                if (board[row][col] == 'A') board[row][col] = 'O';
+                else if (board[row][col] == 'O') board[row][col] = 'X';
+            }
         }
     }
 }
