@@ -80,11 +80,12 @@ public class HOT685 {
         }
 
         public int find(int value){
-            while (value != father[value]){
-                father[value] = father[father[value]];
-                value = father[value];
+            if (value == father[value]){
+                return value;
+            }else {
+                return find(father[value]);
             }
-            return father[value];
+
         }
 
         public boolean connected(int a, int b){
