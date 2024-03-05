@@ -12,7 +12,7 @@ public class HOT417 {
     空间复杂度O(n * m)
      */
     class one{
-        private static final int[][] position = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
+        private  final int[][] position = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 
         public List<List<Integer>> pacificAtlantic(int[][] heights) {
             int rowSize = heights.length, colSize = heights[0].length;
@@ -61,7 +61,7 @@ public class HOT417 {
     广度优先
      */
     class two{
-        private static final int[][] position = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
+        private  final int[][] position = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 
         public List<List<Integer>> pacificAtlantic(int[][] heights){
             int rowSize = heights.length, colSize = heights[0].length;

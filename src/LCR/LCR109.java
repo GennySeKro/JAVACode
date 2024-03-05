@@ -11,14 +11,10 @@ public class LCR109 {
         if ("0000".equals(target)) {
             return 0;
         }
-        Set<String> dead = new HashSet<String>();
-        for (String deadend : deadends) {
-            dead.add(deadend);
-        }
+        Set<String> dead = new HashSet<String>(Arrays.asList(deadends));
         if (dead.contains("0000")) {
             return -1;
         }
-
 
         int step = 0;
         Queue<String> queue = new LinkedList<String>();

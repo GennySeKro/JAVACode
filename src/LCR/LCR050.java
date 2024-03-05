@@ -35,7 +35,6 @@ public class LCR050 {
                     queue.offer(temp.right);
                 }
             }
-
             return res;
         }
 
