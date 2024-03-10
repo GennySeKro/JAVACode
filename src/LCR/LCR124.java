@@ -8,6 +8,6 @@ public class LCR124 {
      */
 
     public TreeNode deduceTree(int[] preorder, int[] inorder) {
-
+        return null;
     }
 }

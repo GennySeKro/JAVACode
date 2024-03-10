@@ -124,6 +124,50 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 018]验证回文串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/doc/content/[LCR 018]验证回文串.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 018" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 018]验证回文串.java" />
+              <option name="titleSlug" value="XltzEq" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 019]验证回文串 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/doc/content/[LCR 019]验证回文串 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 019" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 019]验证回文串 II.java" />
+              <option name="titleSlug" value="RQku0D" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 024]反转链表.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/doc/content/[LCR 024]反转链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 024" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 024]反转链表.java" />
+              <option name="titleSlug" value="UHnkqh" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 027]回文链表.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/doc/content/[LCR 027]回文链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 027" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 027]回文链表.java" />
+              <option name="titleSlug" value="aMhZSa" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 124]推理二叉树.java">
           <value>
             <LeetcodeEditor>
@@ -132,6 +176,39 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 124]推理二叉树.java" />
               <option name="titleSlug" value="zhong-jian-er-cha-shu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 133]位 1 的个数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/doc/content/[LCR 133]位 1 的个数.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 133" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 133]位 1 的个数.java" />
+              <option name="titleSlug" value="er-jin-zhi-zhong-1de-ge-shu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 139]训练计划 I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/doc/content/[LCR 139]训练计划 I.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 139" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 139]训练计划 I.java" />
+              <option name="titleSlug" value="diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 140]训练计划 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/doc/content/[LCR 140]训练计划 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 140" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 140]训练计划 II.java" />
+              <option name="titleSlug" value="lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -165,6 +242,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 145]判断对称二叉树.java" />
               <option name="titleSlug" value="dui-cheng-de-er-cha-shu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 146]螺旋遍历二维数组.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/doc/content/[LCR 146]螺旋遍历二维数组.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 146" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 146]螺旋遍历二维数组.java" />
+              <option name="titleSlug" value="shun-shi-zhen-da-yin-ju-zhen-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
