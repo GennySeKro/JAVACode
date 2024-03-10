@@ -179,6 +179,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 131]砍竹子 I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/doc/content/[LCR 131]砍竹子 I.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 131" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 131]砍竹子 I.java" />
+              <option name="titleSlug" value="jian-sheng-zi-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 132]砍竹子 II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/doc/content/[LCR 132]砍竹子 II.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 132" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 132]砍竹子 II.java" />
+              <option name="titleSlug" value="jian-sheng-zi-ii-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 133]位 1 的个数.java">
           <value>
             <LeetcodeEditor>
@@ -187,6 +209,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 133]位 1 的个数.java" />
               <option name="titleSlug" value="er-jin-zhi-zhong-1de-ge-shu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 138]有效数字.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/doc/content/[LCR 138]有效数字.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 138" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 138]有效数字.java" />
+              <option name="titleSlug" value="biao-shi-shu-zhi-de-zi-fu-chuan-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -220,6 +253,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 142]训练计划 IV.java" />
               <option name="titleSlug" value="he-bing-liang-ge-pai-xu-de-lian-biao-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 143]子结构判断.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/doc/content/[LCR 143]子结构判断.md" />
+              <option name="frontendQuestionId" value="leetcode.cnLCR 143" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../../leetcode/leetcode/editor/cn/[LCR 143]子结构判断.java" />
+              <option name="titleSlug" value="shu-de-zi-jie-gou-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>
