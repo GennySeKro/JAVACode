@@ -1,5 +1,7 @@
 package LCR;
 
+import org.junit.Test;
+
 public class LCR005 {
     /*
     最大单词长度乘积
@@ -24,5 +26,10 @@ public class LCR005 {
             }
         }
         return maxProd;
+    }
+
+    @Test
+    public void test(){
+        maxProduct(new String[]{"abcw","baz","foo","bar","fxyz","abcdef"});
     }
 }

@@ -12,6 +12,7 @@ public class LCR007 {
         List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
         for (int i = 0;i < nums.length - 2;i++){
+            //剪枝相同的起始数字
             if (i != 0 && nums[i] == nums[i - 1]){
                 continue;
             }
@@ -21,10 +22,12 @@ public class LCR007 {
                     int index = i;
                     int finalLeft = left;
                     int finalRight = right;
+                    //对左边剪枝
                     if (nums[left] == nums[left - 1] && left != i + 1){
                         left++;
                         continue;
                     }
+                    //对右边剪枝
                     if (right != nums.length - 1){
                         if (nums[right] == nums[right + 1]){
                             right--;
