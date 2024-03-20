@@ -245,6 +245,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[789]逃脱阻碍者.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/doc/content/[789]逃脱阻碍者.md" />
+              <option name="frontendQuestionId" value="leetcode.cn789" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[789]逃脱阻碍者.java" />
+              <option name="titleSlug" value="escape-the-ghosts" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[792]匹配子序列的单词数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/doc/content/[792]匹配子序列的单词数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn792" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[792]匹配子序列的单词数.java" />
+              <option name="titleSlug" value="number-of-matching-subsequences" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[LCR 001]两数相除.java">
           <value>
             <LeetcodeEditor>
