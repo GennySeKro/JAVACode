@@ -6,6 +6,6 @@ public class HOT792 {
      */
 
     public int numMatchingSubseq(String s, String[] words) {
-
+        return 1;
     }
 }
