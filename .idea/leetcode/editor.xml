@@ -179,6 +179,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[1452]收藏清单.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/doc/content/[1452]收藏清单.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1452" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[1452]收藏清单.java" />
+              <option name="titleSlug" value="people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[2129]将标题首字母大写.java">
           <value>
             <LeetcodeEditor>
@@ -187,6 +198,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[2129]将标题首字母大写.java" />
               <option name="titleSlug" value="capitalize-the-title" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[2131]连接两字母单词得到的最长回文串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/doc/content/[2131]连接两字母单词得到的最长回文串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2131" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[2131]连接两字母单词得到的最长回文串.java" />
+              <option name="titleSlug" value="longest-palindrome-by-concatenating-two-letter-words" />
             </LeetcodeEditor>
           </value>
         </entry>
