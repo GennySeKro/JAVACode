@@ -1,21 +1,7 @@
 package rating1500_1700;
 
-<<<<<<< HEAD
-public class G1415 {
-    /*
-    长度为n的开心字符串种字典序第k小的字符串
-     */
-
-    public String getHappyString(int n, int k) {
-
-    }
-
-=======
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 
 public class G1415 {
     /*
@@ -54,5 +40,4 @@ public class G1415 {
     public void test(){
         System.out.println(getHappyString(3,9));
     }
->>>>>>> origin/master
 }
