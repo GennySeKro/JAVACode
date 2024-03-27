@@ -2,9 +2,6 @@ package rating1500_1700;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 
 public class G1415 {
     /*
