@@ -8,8 +8,8 @@ public class G2241 {
      */
 
     class ATM {
-        private static final int TYPES = 5;
-        private static final int[] AMOUNTS = {20, 50, 100, 200, 500};
+        private  final int TYPES = 5;
+        private  final int[] AMOUNTS = {20, 50, 100, 200, 500};
         private long[] counts;
 
         public ATM() {
