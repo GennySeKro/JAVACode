@@ -179,6 +179,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[1254]统计封闭岛屿的数目.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/doc/content/[1254]统计封闭岛屿的数目.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1254" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[1254]统计封闭岛屿的数目.java" />
+              <option name="titleSlug" value="number-of-closed-islands" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[1268]搜索推荐系统.java">
           <value>
             <LeetcodeEditor>
@@ -187,6 +198,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[1268]搜索推荐系统.java" />
               <option name="titleSlug" value="search-suggestions-system" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[1289]下降路径最小和  II.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/doc/content/[1289]下降路径最小和  II.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1289" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[1289]下降路径最小和  II.java" />
+              <option name="titleSlug" value="minimum-falling-path-sum-ii" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -388,6 +410,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[3029]将单词恢复初始状态所需的最短时间 I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/doc/content/[3029]将单词恢复初始状态所需的最短时间 I.md" />
+              <option name="frontendQuestionId" value="leetcode.cn3029" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[3029]将单词恢复初始状态所需的最短时间 I.java" />
+              <option name="titleSlug" value="minimum-time-to-revert-word-to-initial-state-i" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[3076]数组中的最短非公共子字符串.java">
           <value>
             <LeetcodeEditor>
@@ -495,6 +528,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[931]下降路径最小和.java" />
               <option name="titleSlug" value="minimum-falling-path-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[950]按递增顺序显示卡牌.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/doc/content/[950]按递增顺序显示卡牌.md" />
+              <option name="frontendQuestionId" value="leetcode.cn950" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/../TEMP1/leetcode/editor/cn/[950]按递增顺序显示卡牌.java" />
+              <option name="titleSlug" value="reveal-cards-in-increasing-order" />
             </LeetcodeEditor>
           </value>
         </entry>
