@@ -2,6 +2,8 @@ package Leetcode.week.week393;
 
 import org.junit.Test;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class HOT100267 {
@@ -9,47 +11,58 @@ public class HOT100267 {
     单面值组合的第 K 小金额
      */
 
-    public long findKthSmallest(int[] coins, int k) {
-        PriorityQueue<Integer> queue = new PriorityQueue<>(k, new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return o2 - o1;
+    public long findKthSmallest(int[] nums) {
+        Stack<Integer> stack = new Stack<Integer>();
+        int i = 0;
+        while (i < nums.length){
+            //栈为空，直接入栈
+            if (stack.isEmpty() ){
+                stack.push(nums[i]);
+                i++;
+                continue;
             }
-        });
-        Arrays.sort(coins);
-        List<Integer> list = new ArrayList<>();
-        for (int i = 0;i < coins.length - 1;i++){
-            for (int j = i + 1;j < coins.length;j++){
-                if (coins[j] % coins[i] == 0){
-                    coins[j] = 0;
-                }
+            //当前非素数，入栈
+            if (!isNum(nums[i])){
+                stack.push(nums[i]);
+                i++;
+                continue;
             }
-        }
-        int[] num = coins.clone();
-        for (int i = 0;i < k;i++){
-            for (int j = 0;j < coins.length;j++){
-                if (queue.isEmpty()){
-                    queue.add(num[j]);
-                    num[j] = num[j] + coins[j];
+            //栈不空且当前数是素数
+            if (isNum(stack.peek()) == true){
+                int temp = nums[i] + stack.pop();
+                if (isNum(temp)){
+                    nums[i] = temp;
                 }else {
-                    if (queue.size() < k){
-                        queue.add(num[j]);
-                        num[j] = num[j] + coins[j];
-                        continue;
-                    }
-                    if (num[j] < queue.peek()){
-                        queue.poll();
-                        queue.add(num[j]);
-                        num[j] = num[j] + coins[j];
-                    }
+                    stack.push(temp);
+                    i++;
                 }
+            }else {
+                stack.push(nums[i]);
+                i++;
+                continue;
             }
         }
-        return queue.peek();
+        return stack.size();
+    }
+
+    private static boolean isNum(int num) {
+        if (num == 1){
+            return false;
+        }else if (num == 2){
+            return true;
+        }
+        for (int i = 2;i * i <= num;i++){
+            if (num % i == 0){
+                return false;
+            }
+        }
+        return true;
+        // TODO
     }
 
     @Test
     public void test(){
-        System.out.println(findKthSmallest(new int[]{5,2}, 7));
+        System.out.println(findKthSmallest(new int[]{1,3,2,5,4}));
+
     }
 }
