@@ -4,34 +4,21 @@ import org.junit.Test;
 
 import java.util.*;
 
-
 public class javaTest {
 
-    @Test
-    public void test(){
-       LargestNum(new int[]{10,9,8,5,4,1,2,3});
-    }
-
-
-    public String LargestNum(int[] nums) {
-        String[] res = new String[nums.length];
-        for(int i = 0;i < nums.length;i++){
-            res[i] = "" + nums[i];
-        }
-        Arrays.sort(res, (a, b)->{
-                String temp0 = a + b, temp1 = b + a;
-        return temp1.compareTo(temp0);
-        });
-
-        StringBuilder ans = new StringBuilder();
+    public int subarraySum(int[] nums, int k) {
+        int sum = 0, res = 0;
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(0, 1);
         for (int i = 0;i < nums.length;i++){
-            ans.append(res[i]);
+
+            sum += nums[i];
+
+            if (map.containsKey(sum - k)){
+                res += map.get(sum - k);
+            }
+            map.put(sum, map.getOrDefault(sum, 0) + 1);
         }
-        int len = ans.length();
-        int k = 0;
-        while(k < len - 1 && ans.charAt(k)== '0'){
-            k++;
-        }
-        return ans.substring(k);
+        return res;
     }
 }
