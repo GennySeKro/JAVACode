@@ -9,7 +9,7 @@ public class L146 {
      */
 
     class LRUCache {
-        private static class Node {
+        private  class Node {
             int key, value;
             Node prev, next;
 
