@@ -1,4 +1,4 @@
-package DataStructure;
+package DataStructure.SegmentTree;
 
 public class SegmentTree {
 

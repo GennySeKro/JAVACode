@@ -1,5 +1,6 @@
-package DataStructure;
+package DataStructure.SegmentTree;
 
+import DataStructure.SegmentTree.SegmentTree;
 import org.junit.Test;
 
 public class TestSegmentTree {
