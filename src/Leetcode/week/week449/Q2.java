@@ -2,7 +2,6 @@ package Leetcode.week.week449;
 
 import org.junit.Test;
 
-import java.util.Arrays;
 
 public class Q2 {
     /*
